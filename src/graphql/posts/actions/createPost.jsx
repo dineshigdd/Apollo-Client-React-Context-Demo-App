@@ -1,5 +1,5 @@
 import React ,  { useContext, useEffect, useRef, useState }   from 'react';
-import { useMutation, useQuery } from '@apollo/client';
+import { useMutation } from '@apollo/client';
 import { CREATE_POST } from '../mutations/mutations'
 import listContext from '../context/listContext';
 import GetAllPosts from './postList';

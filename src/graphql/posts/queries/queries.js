@@ -11,18 +11,6 @@ export const GET_ALL_POSTS = gql`
       }
 `;
 
-export const SHOW_ALL_POSTS = gql`
-query {
-  posts {
-    data {
-      id
-      title
-    }
-   
-  }
-}
-`;
-
 export const GET_POST = gql`
     query( $id: ID!){
       post(id: $id) {
